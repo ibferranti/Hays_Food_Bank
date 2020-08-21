@@ -9,20 +9,22 @@ body {
 
   .Header1{
     display: flex;
+    justify-content: space-between;
     Height: 200px;
-    padding: 5px;
+    padding: 8px;
     background-color: lightgoldenrodyellow;
-    padding: px;
   }
  
   .HFBLogo, .Mission{
     display: flex;
-    justify-content: space-between;
-  }
-
-  .Mission{
     align-items: center;
   }
+  
+  /*
+  .RightNav consists of both the search bar and the volunteer portal "button"
+  I chose to separate it from the mission statement and logo, so that we could align the 
+  search bar above the volunteer portal button
+  */
 
   .RightNav{
     padding: 10px;
@@ -30,5 +32,37 @@ body {
    }
   
   .SearchBar{
-    transform: translateY(-10%);
+    transform: translateY(-30%);
+  }
+
+
+  .header_navigation{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .GetHelp button{
+    background-color: orange;
+    color:black;
+    padding: 15px;
+    width: 300%;
+  }
+  .GiveBack button{
+    background-color: yellow;
+    color:black;
+    padding: 15px;
+    width: 300%;  
+  }
+  .AboutUs button{
+    background-color: rgba(153, 83, 84, 1);
+    color:black;
+    padding: 15px;
+    width: 300%;  
+  }
+  .Programs button{
+    background-color: orange;
+    color:black;
+    padding: 15px;
+    width: 300%;  
   }
