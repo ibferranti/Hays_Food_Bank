@@ -106,18 +106,18 @@ body {
   }
 
   #upcoming_events{
-    background-image: url("../upcoming-events.png");
+    background-image: url("../images/upcoming-events.png");
     background-position-y: center;
     background-repeat: no-repeat;  }
 
   #summer_programs{
-    background-image: url("../smpro.png");  
+    background-image: url("../images/smpro.png");  
     background-position-y: center;
     background-repeat: no-repeat;
   }
 
   #news{
-    background-image: url("../news.png");
+    background-image: url("../images/news.png");
     background-position-y: center;
     background-repeat: no-repeat;
 
