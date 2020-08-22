@@ -98,10 +98,29 @@ body {
   /*CategoryGrid_bottom is the upcoming events, summer programs, and news*/
 
   .categoryGrid_bottom{
+    height: 250px;
     display: flex;
     justify-content: space-evenly;
     background-color: lightgoldenrodyellow;
     text-align: center;
+  }
+
+  #upcoming_events{
+    background-image: url("../upcoming-events.png");
+    background-position-y: center;
+    background-repeat: no-repeat;  }
+
+  #summer_programs{
+    background-image: url("../smpro.png");  
+    background-position-y: center;
+    background-repeat: no-repeat;
+  }
+
+  #news{
+    background-image: url("../news.png");
+    background-position-y: center;
+    background-repeat: no-repeat;
+
   }
   .categoryGridArea_bottom{
     border-style: solid;
