@@ -111,7 +111,9 @@ body {
     background-image: url("../images/upcoming-events.png");
     background-color: #FBEED2;
     background-position-y: center;
-    background-repeat: no-repeat;  }
+    background-repeat: no-repeat;
+    display: block;
+  }
 
   #summer_programs{
     background-image: url("../images/smpro.png");  
@@ -130,6 +132,8 @@ body {
   .categoryGridArea_bottom{
     border-style: solid;
     width: 375px;
+    vertical-align: middle;
+    text-align: center;
   }
 
   .categoryGrid_quote{
@@ -137,6 +141,8 @@ body {
     padding: 10px;
     font-size: 22px;
     background-color: #F9E1AE;
+    text-align: center;
+    vertical-align: center;
   }
 
   .footer_navigation{
