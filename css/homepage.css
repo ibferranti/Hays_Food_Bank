@@ -13,7 +13,6 @@ body {
     justify-content: space-between;
     Height: 220px;
     padding: 8px;
-    background-image: url(../images/header_background.png);
   }
  
 
@@ -40,36 +39,36 @@ body {
 
   .header_navigation{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-content: center;
-    background-image: url(../images/header_background.png);
+    box-sizing: border-box;
   }
 
   .GetHelp button{
     background-color: #EB8838;
     color:black;
     font-size: 18px;
-    padding: 15px;
+    padding: 5px;
     width: 300%;
   }
   .GiveBack button{
     background-color: #F3C832;
     color:black;
     font-size: 18px;
-    padding: 15px;
+    padding: 5px;
     width: 300%;  
   }
   .AboutUs button{
     background-color: #AF5354;
     color:black;
-    padding: 15px;
+    padding: 5px;
     width: 300%;
     font-size: 18px;  
   }
   .Programs button{
     background-color: #EB8838;
     color:black;
-    padding: 15px;
+    padding: 5px;
     font-size: 18px;
     width: 300%;  
   }
@@ -87,14 +86,16 @@ body {
     justify-content: space-evenly;
     background-color: #F9E1AE;
     text-align: center;
-
+    vertical-align: middle;
   }
 
   .categoryGridArea_top{
     border-style: solid;
     width: 220px;
     height: 250px;
-    background-color: #FBEED2 ;
+    background-color: #FBEED2;
+    vertical-align: middle;
+    justify-content: space-between;
   }
 
   /*CategoryGrid_bottom is the upcoming events, summer programs, and news*/
@@ -147,35 +148,36 @@ body {
 
   .footer_navigation{
     display: flex;
-    justify-content: space-around;
-    background-image: url(../images/header_background.png);
+    justify-content: space-evenly;
+    align-content: center;
+    box-sizing: border-box;
   }
 
   .ContactUs button{
     background-color: #EB8838;
     color:black;
     font-size: 18px;
-    padding: 15px;
+    padding: 5px;
     width: 300%;
   }
   .StayConnected button{
     background-color: #F3C832;
     color:black;
     font-size: 18px;
-    padding: 15px;
-    width: 250%;  
+    padding: 5px;
+    width: 250%;
   }
   .Volunteer button{
     background-color: #AF5354;
     color:black;
-    padding: 15px;
+    padding: 5px;
     width: 300%;
-    font-size: 18px;  
+    font-size: 18px;
   }
   .Partner button{
     background-color: #EB8838;
     color:black;
-    padding: 15px;
+    padding: 5px;
     font-size: 18px;
     width: 300%;  
   }
