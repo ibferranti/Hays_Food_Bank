@@ -9,11 +9,11 @@ body {
   }*/
 
   .Header1{
+    background-image: url(../images/header_background.png);
     display: flex;
     justify-content: space-between;
     Height: 220px;
     padding: 8px;
-    background-image: url(../images/header_background.png);
   }
  
 
@@ -172,4 +172,11 @@ body {
     padding: 15px;
     font-size: 18px;
     width: 300%;  
+  }
+  .categoryGrid_events{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F9E1AE;
+    text-align: center;
+
   }
