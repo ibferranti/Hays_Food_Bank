@@ -1,3 +1,173 @@
-.events_schedule{
-    color: green;
-}
+body {
+    font-family: 'Maven Pro', sans-serif;
+    background-color: #F9E1AE;
+  }
+
+  /*--Header1
+    background: lightgoldenrodyellow;
+    height:200px;
+  }*/
+
+
+  .Header1{
+    background-image: url(../images/header_background.png);
+    display: flex;
+    justify-content: space-between;
+    Height: 220px;
+    width: 100%;
+    padding: 8px;
+  }
+  
+
+
+
+  .HFBLogo, .Mission{
+    display: flex;
+    align-items: center;
+  }
+  
+  /*
+  .RightNav consists of both the search bar and the volunteer portal "button"
+  I chose to separate it from the mission statement and logo, so that we could align the 
+  search bar above the volunteer portal button
+  */
+
+  .RightNav{
+    padding: 10px;
+    transform: translate(10%,30%);
+   }
+  
+  .SearchBar{
+    transform: translateY(-30%);
+  }
+
+
+  .header_navigation{
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    
+  }
+
+  .GetHelp button{
+    background-color: #EB8838;
+    color:black;
+    font-size: 18px;
+    padding: 15px;
+    width: 300%;  
+  }
+  .GiveBack button{
+    background-color: #F3C832;
+    color:black;
+    font-size: 18px;
+    padding: 15px;
+    width: 300%;   
+  }
+  .AboutUs button{
+    background-color: #AF5354;
+    color:black;
+    padding: 15px;
+    width: 300%;
+    font-size: 18px;  
+  }
+  .Programs button{
+    background-color: #EB8838;
+    color:black;
+    padding: 15px;
+    font-size: 18px;
+    width: 300%;  
+  }
+
+  .categoryGrid_events {
+    margin: 0px 5%;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 300px 300px 300px 300px 300px 300px;
+    grid-template-areas:
+      "souper_bowl"
+      "amplify_austin"
+      "spring_harvest"
+      "lend_a_hand"
+      "turkeys_tackling_hunger"
+      "empty_bowl"
+    ;
+  }
+
+  #souper_bowl{
+    grid-area: souper_bowl;
+    background-image: url(../images/HEB\ 1.png);
+    background-repeat: no-repeat;
+
+  }
+
+  #amplify_austin{
+    grid-area: amplify_austin;
+    background-image: url(../images/ILHIGH_AAD_Stacked-Logo-Teal\ 1.png);
+    background-repeat: no-repeat;
+  }
+
+  #spring_harvest{
+    grid-area: spring_harvest;
+    background-image: url(../images/spring_harvest\ 1.png);
+    background-repeat: no-repeat;
+  }
+
+  #lend_a_hand{
+    grid-area: lend_a_hand;
+    background-image: url(../images/produce-and-client\ 1.png);
+    background-repeat: no-repeat;
+  }
+
+  #turkeys_tackling_hunger{
+    grid-area: turkeys_tackling_hunger;
+    background-image: url(../images/turkey\ costumes\ 1.png);
+    background-repeat: no-repeat;
+  }
+
+  #empty_bowl{
+    grid-area: empty_bowl;
+    background-image: url(../images/karim-manjra-mOoohhUTS4Y-unsplash\ 1.png);
+    background-repeat: no-repeat;
+  }
+
+  .heading{
+    text-align: right;
+    text-anchor: end;
+  }
+
+  .footer_navigation{
+    display: flex;
+    justify-content: space-around;
+    background-image: url(../images/header_background.png);
+  }
+
+  .ContactUs button{
+    background-color: #EB8838;
+    color:black;
+    font-size: 18px;
+    padding: 15px;
+    width: 300%;
+  }
+  .StayConnected button{
+    background-color: #F3C832;
+    color:black;
+    font-size: 18px;
+    padding: 15px;
+    width: 250%;  
+  }
+  .Volunteer button{
+    background-color: #AF5354;
+    color:black;
+    padding: 15px;
+    width: 300%;
+    font-size: 18px;  
+  }
+  .Partner button{
+    background-color: #EB8838;
+    color:black;
+    padding: 15px;
+    font-size: 18px;
+    width: 300%;  
+  }
+
+ 
