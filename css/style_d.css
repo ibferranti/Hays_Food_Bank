@@ -1,0 +1,208 @@
+body {
+    font-family: 'Maven Pro', sans-serif;
+    background-image: url(../images/background.png);
+  }
+
+  /*--Header1
+    background: lightgoldenrodyellow;
+    height:200px;
+  }*/
+
+  .Header1{
+    display: flex;
+    justify-content: space-between;
+    Height: 220px;
+    padding: 8px;
+    background-image: url(../images/header_background.png);
+  }
+ 
+
+  .HFBLogo, .Mission{
+    display: flex;
+    align-items: center;
+  }
+  
+  /*
+  .RightNav consists of both the search bar and the volunteer portal "button"
+  I chose to separate it from the mission statement and logo, so that we could align the 
+  search bar above the volunteer portal button
+  */
+
+  .RightNav{
+    padding: 10px;
+    transform: translate(10%,30%);
+   }
+  
+  .SearchBar{
+    transform: translateY(-30%);
+  }
+
+
+  .header_navigation{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    background-image: url(../images/header_background.png);
+  }
+
+  .GetHelp button{
+    background-color: #EB8838;
+    color:black;
+    font-size: 18px;
+    padding: 15px;
+    width: 300%;
+  }
+  .GiveBack button{
+    background-color: #F3C832;
+    color:black;
+    font-size: 18px;
+    padding: 15px;
+    width: 300%;  
+  }
+  .AboutUs button{
+    background-color: #AF5354;
+    color:black;
+    padding: 15px;
+    width: 300%;
+    font-size: 18px;  
+  }
+  .Programs button{
+    background-color: #EB8838;
+    color:black;
+    padding: 15px;
+    font-size: 18px;
+    width: 300%;  
+  }
+
+  .food_distribution_schedule{
+    display: flex;
+    justify-content: center;
+    background-color: #F9E1AE;
+  }
+
+  /*CategoryGrid_top is the food distribution schedule cards*/
+
+  .categoryGrid_top{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F9E1AE;
+    text-align: center;
+
+  }
+
+  .categoryGridArea_top{
+    border-style: solid;
+    width: 220px;
+    height: 250px;
+    background-color: #FBEED2 ;
+  }
+
+  /*CategoryGrid_bottom is the upcoming events, summer programs, and news*/
+
+  .categoryGrid_bottom{
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F9E1AE;
+    text-align: center;
+  }
+
+  #upcoming_events{
+    background-image: url("../images/upcoming-events.png");
+    background-color: #FBEED2;
+    background-position-y: center;
+    background-repeat: no-repeat;  }
+
+  #summer_programs{
+    background-image: url("../images/smpro.png");  
+    background-color: #FBEED2;
+    background-position-y: center;
+    background-repeat: no-repeat;
+  }
+
+  #news{
+    background-image: url("../images/news.png");
+    background-color: #FBEED2;
+    background-position-y: center;
+    background-repeat: no-repeat;
+
+  }
+  .categoryGridArea_bottom{
+    border-style: solid;
+    width: 375px;
+  }
+
+  .categoryGrid_quote{
+    text-align: center;
+    padding: 10px;
+    font-size: 22px;
+    background-color: #F9E1AE;
+  }
+
+  .footer_navigation{
+    display: flex;
+    align-content: flex-end;
+    justify-content: space-around;
+    background-image: url(../images/header_background.png);
+  }
+
+  .ContactUs button{
+    background-color: #EB8838;
+    color:black;
+    font-size: 18px;
+    padding: 15px;
+    width: 300%;
+  }
+  .StayConnected button{
+    background-color: #F3C832;
+    color:black;
+    font-size: 18px;
+    padding: 15px;
+    width: 250%;  
+  }
+  .Volunteer button{
+    background-color: #AF5354;
+    color:black;
+    padding: 15px;
+    width: 300%;
+    font-size: 18px;  
+  }
+  .Partner button{
+    background-color: #EB8838;
+    color:black;
+    padding: 15px;
+    font-size: 18px;
+    width: 300%;  
+  }
+
+  .Header_GF{
+      font-size: 40px;
+      font-style: inherit;
+      /*align-content: center;*/
+      text-align: center;
+      font-family:Arial, Helvetica, sans-serif;
+  }
+  .donatetext{
+      font-size: 60px;;
+  }
+  .DonateOnline button{ 
+      color: black;
+      background-color: #f3c832;
+      border-style: ridge;
+      padding: 10px;
+      font-size: 24px;
+      height: 48px;
+      width: 200px;
+      transform: translateX(250px);
+   }
+
+   .Register button{ 
+    color: black;
+    background-color: orange;
+    border-style: ridge;
+    padding: 10px;
+    font-size: 24px;
+    height: 48px;
+    width:200px;
+    transform: translateX(250px);
+ }
