@@ -3,12 +3,6 @@ body {
     background-color: #F9E1AE;
   }
 
-  /*--Header1
-    background: lightgoldenrodyellow;
-    height:200px;
-  }*/
-
-
   .Header1{
     background-image: url(../images/header_background.png);
     display: flex;
@@ -17,20 +11,11 @@ body {
     width: 100%;
     padding: 8px;
   }
-  
-
-
 
   .HFBLogo, .Mission{
     display: flex;
     align-items: center;
   }
-  
-  /*
-  .RightNav consists of both the search bar and the volunteer portal "button"
-  I chose to separate it from the mission statement and logo, so that we could align the 
-  search bar above the volunteer portal button
-  */
 
   .RightNav{
     padding: 10px;
@@ -44,7 +29,7 @@ body {
 
   .header_navigation{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-content: flex-start;
     
   }
@@ -81,59 +66,101 @@ body {
   .categoryGrid_events {
     margin: 0px 5%;
     display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 300px 300px 300px 300px 300px 300px;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas:
-      "souper_bowl"
-      "amplify_austin"
-      "spring_harvest"
-      "lend_a_hand"
-      "turkeys_tackling_hunger"
-      "empty_bowl"
+      "image1 souper_bowl"
+      "image2 amplify_austin"
+      "image3 spring_harvest"
+      "image4 lend_a_hand"
+      "image5 turkeys_tackling_hunger"
+      "image6 empty_bowl"
     ;
+  }
+
+
+  #image1{
+    grid-area: image1;
+  }
+
+  #image2{
+    grid-area: image2;
+  }
+
+  #image3{
+    grid-area: image3;
+  }
+
+  #image4{
+    grid-area: image4;
+  }
+
+  #image5{
+    grid-area: image5;
+  }
+
+  #image6{
+    grid-area: image6;
   }
 
   #souper_bowl{
     grid-area: souper_bowl;
-    background-image: url(../images/HEB\ 1.png);
-    background-repeat: no-repeat;
 
   }
 
   #amplify_austin{
     grid-area: amplify_austin;
-    background-image: url(../images/ILHIGH_AAD_Stacked-Logo-Teal\ 1.png);
-    background-repeat: no-repeat;
   }
 
   #spring_harvest{
     grid-area: spring_harvest;
-    background-image: url(../images/spring_harvest\ 1.png);
-    background-repeat: no-repeat;
   }
 
   #lend_a_hand{
     grid-area: lend_a_hand;
-    background-image: url(../images/produce-and-client\ 1.png);
-    background-repeat: no-repeat;
   }
 
   #turkeys_tackling_hunger{
     grid-area: turkeys_tackling_hunger;
-    background-image: url(../images/turkey\ costumes\ 1.png);
-    background-repeat: no-repeat;
   }
 
   #empty_bowl{
     grid-area: empty_bowl;
-    background-image: url(../images/karim-manjra-mOoohhUTS4Y-unsplash\ 1.png);
-    background-repeat: no-repeat;
+  }
+
+  #button{
+    grid-area: button;
   }
 
   .heading{
     text-align: right;
     text-anchor: end;
   }
+
+  @media only screen and (max-width: 1000px) {
+    .categoryGrid_events {
+      margin: 0px 5%;
+      display: grid;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr;
+      grid-template-areas:
+        "image1" 
+        "souper_bowl"
+        "image2" 
+        "amplify_austin"
+        "image3" 
+        "spring_harvest"
+        "image4" 
+        "lend_a_hand"
+        "image5" 
+        "turkeys_tackling_hunger"
+        "image6"
+        "empty_bowl"
+      ;
+    }
+
+  }
+
 
   .footer_navigation{
     display: flex;
@@ -170,4 +197,3 @@ body {
     width: 300%;  
   }
 
- 
